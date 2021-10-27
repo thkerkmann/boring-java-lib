@@ -136,7 +136,7 @@ public class StringUtils {
 
     public static String sortRoomCommaList(String sAv) {
         List<String> rooms = Arrays.asList(sAv.split(","));
-        RoomNumberComperator comp = new RoomNumberComperator();
+        RoomNumberComparator comp = new RoomNumberComparator();
         Collections.sort(rooms, comp);
 
         String r = "";

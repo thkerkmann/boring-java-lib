@@ -7,16 +7,10 @@ package de.kerkmann.common;
 
 import java.util.Comparator;
 
-public class RoomNumberComperator implements Comparator<String> {
+public class RoomNumberComparator implements Comparator<String> {
 
     @Override
     public int compare(String room1, String room2) {
-        while (room1.length() < room2.length()) {
-            room1 = "0" + room1;
-        }
-        while (room2.length() < room1.length()) {
-            room2 = "0" + room2;
-        }
 
         Integer r1;
         try {
