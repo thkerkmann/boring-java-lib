@@ -5,7 +5,7 @@
 
     <groupId>de.kerkmann</groupId>
     <artifactId>common</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Private common library</description>
